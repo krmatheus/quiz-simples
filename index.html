@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quiz for testing your knowledge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Quiz</title>
+</head>
+<body>
+    <header> 
+        <h1 style="font-size: 80px;">Smart quiz for developers</h1>
+        <p><strong>Test yourself and see what <span style="color: black;">you</span> can do</strong></p>
+    </header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>My first <em>HTML</em> project where I take the opportunity to test how you are better than me with a simple quiz</p>
+            <p>Ps: Don't need to press enter before typing in a text case</p>
+            <p>You'll see the answers in the end of the website</p>
+        </section>
+        <fieldset>
+        <section>
+            <h2>Question N1: What language is used for Web page structures?</h2>
+            <form>
+                <input type="radio" value="CSS" id="q1a" name="quest1" >
+                <label for="q1a">CSS</label><br>
+                <input type="radio" value="HTML" id="q1b" name="quest1" >
+                <label for="q1b">HTML</label><br>
+                <input type="radio" value="JavaScript" id="q1c" name="quest1" >
+                <label for="q1c">JavaScript</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Question N2: In the url www.YouTube.com the YouTube.com passage is __ </h2>
+            <form>
+                <input type="text" id="q2" name="quest2" placeholder="Type here..."> 
+            </form>
+        </section>
+        <section>
+            <h2>Question N3: Type a strong password example</h2>
+            <form>
+                <input type="password" id="q3" name="quest3" placeholder="Type a password">
+            </form>
+        </section>
+        <section>
+            <h2>Question N4: When did HTML released its first version?</h2>
+            <form>
+                <input type="radio" value="1989" id="q4a" name="quest4">
+                <label for="q4a">1989</label><br>
+                <input type="radio" value="1991" id="q4b" name="quest4">
+                <label for="q4b">1991</label><br>
+                <input type="radio" value="1994" id="q4c" name="quest4">
+                <label for="q4c">1994</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Question N5: Which of the technologies below are considered coding languages?</h2>
+            <form>
+                <input type="checkbox" value="JavaScript" id="q5a" name="quest5">
+                <label for="q5a">JavaScript</label>
+                <input type="checkbox" value="HTML" id="q5b" name="quest5">
+                <label for="q5b">HTML</label>
+                <input type="checkbox" value="Ruby" id="q5c" name="quest5">
+                <label for="q5c">Ruby</label>
+                <input type="checkbox" value="Django" id="q5d" name="quest5">
+                <label for="q5d">Django</label>
+                <input type="checkbox" value="Node" id="q5e" name="quest5">
+                <label for="q5e">Node</label>
+            </form>
+        </section>
+        <section>
+            <h2>Question N6: Create and upload an html file</h2>
+            <form>
+                <input type="file" id="q6" name="quest6">
+            </form>
+        </section>
+        <section>
+            <h2>Question N7: Pick the attribute of the input that defines its type </h2>
+            <form>
+                <select name="quest7" id="q7">
+                <option value="id">id</option>
+                <option value="type">type</option>
+                <option value="placeholder">placeholder</option>
+                <option value="here">here</option>
+                <option value="pick">pick</option>
+            </select>
+            </form>
+        </section>
+        <section>
+            <h2>Question N8: What language is represented by the image below?</h2>
+            <img src="./assets/cobol.png" alt="" id="cobo"><br>
+            <br>
+            <input type="text" id="q8" name="quest8" placeholder="Type here...">
+        </fieldset>
+        </section>
+        <!--Tabela de Pontuação-->
+        <section>
+            <h2>Score Table</h2>
+            <table border="8" id="tablee">
+                <thead>
+                    <tr>
+                        <th>Your Score</th>
+                        <th>My Thoughts</th>
+                    </tr>              
+                </thead>
+                <tbody> 
+                <tr>
+                    <td>0 -- 2</td>
+                    <td>It's over brutal just give up</td>    
+                </tr>
+                <tr>
+                    <td>3 -- 5</td>
+                    <td>Ok still need to get good</td>    
+                </tr>
+                <tr>
+                    <td>5 -- 7</td>
+                    <td>I'm literally inspired by you</td>    
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>God?</td>    
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Don't take it too seriously please</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <!--Respostas-->
+        <section>
+            <h2>Check your answers</h2>
+            <details>
+                <summary>Click to see the answers</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Domain</li>
+                    <li>Abcvk!!9482v</li>
+                    <li>1991</li>
+                    <li>JavaScript and Ruby</li>
+                    <li>Must have .html</li>
+                    <li>Type</li>
+                    <li>cobol</li>
+                </ol>
+            </details>
+        </section>
+        <section>
+            <h2>Give me your feedback if you feeling it</h2>
+            <form>
+                <label for="name">Your name:</label> 
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Your e-mail:</label> 
+                <input type="text" id="email" name="email"><br>
+                <label for="comments">Comments:</label><br> 
+                <textarea name="comments" id="comments" rows="10" cols="30" placeholder="No Mercy"></textarea><br> 
+                <button onclick="alert('Sent!')">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+            <a class="paragFooter" href="https://www.instagram.com/matheusziiz/" target="_blank">Instagram</a>
+            <p class="paragFooter">Learning from <a href="https://www.youtube.com/@rafaellaballerini" target="_blank">Here</a> <3 </p>
+            <p class="paragFooter">You can read some things about me in <a href="aboutMe.html" target="_blank">here</a></p>
+    </footer>
+</body>
+</html>
